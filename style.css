@@ -1,0 +1,40 @@
+
+.header {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position:fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    margin-bottom:4rem;
+    z-index: 1;
+
+  }
+  
+  @keyframes example {
+    0%   {
+        background-color:red;
+        text-shadow: -4px -4px 0px black;
+    }
+    50%  {
+      background-color: maroon;
+      text-shadow: 4px 4px 0px darkgray;
+    }
+    100% {
+      background-color:red;
+      text-shadow: -4px -4px 0px black;
+ 
+    }
+  }
+
+ img{
+  margin:0px;
+ }
+
+ .images{
+  border:1px solid darkgray;
+  padding: 5px;
+  
+ }
+
